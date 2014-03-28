@@ -18,6 +18,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 using Perceiveit.Data.Query;
 
@@ -207,6 +208,19 @@ namespace Perceiveit.Data.SqlClient
             options = "";
             switch (dbType)
             {
+                case System.Data.DbType.Binary:
+                    if (setSize <= 0)
+                    {
+                        native = "VARBINARY";
+                        options = "(MAX)";
+                    }
+                    else
+                    {
+                        native = "VARBINARY";
+                        options = "(" + setSize.ToString(CultureInfo.InvariantCulture) + ")";
+                    }
+                    break;
+
                 case System.Data.DbType.String:
 
                     if (setSize <= 0)

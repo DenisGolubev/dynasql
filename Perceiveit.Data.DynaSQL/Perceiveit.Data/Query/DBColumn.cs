@@ -197,6 +197,7 @@ namespace Perceiveit.Data.Query
             col.Type = type;
             col.Flags = flags;
             col.Length = maxLength;
+            col.Precision = precision;
             return col;
         }
 

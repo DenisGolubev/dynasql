@@ -1,10 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perceiveit.Data", "Perceiveit.Data\Perceiveit.Data.csproj", "{5A3E3137-F7D8-4416-B6A0-2F5902F5754D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perceiveit.Data.SchemaTests", "Perceiveit.Data.SchemaTests\Perceiveit.Data.SchemaTests.csproj", "{470DF7E2-7AC0-4D32-A091-EA4CF050CFE1}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFEA8843-0A65-4704-9345-573E170C4F2E}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
@@ -12,32 +10,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perceiveit.Data", "Perceiveit.Data\Perceiveit.Data.csproj", "{5A3E3137-F7D8-4416-B6A0-2F5902F5754D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perceiveit.Data.SchemaTests", "Perceiveit.Data.SchemaTests\Perceiveit.Data.SchemaTests.csproj", "{470DF7E2-7AC0-4D32-A091-EA4CF050CFE1}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perceiveit.Data.UnitTests", "Perceiveit.Data.UnitTests\Perceiveit.Data.UnitTests.csproj", "{8F1A3E46-DD1A-48D4-904F-FB5E22010770}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perceiveit.Data.Silverlight", "Perceiveit.Data.Silverlight\Perceiveit.Data.Silverlight.csproj", "{161D1EAA-A6F3-41EF-8D6A-DB548BA825B4}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs01
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Perceiveit.Data\\Perceiveit.Data.csproj
-		SccProjectName1 = Perceiveit.Data
-		SccLocalPath1 = Perceiveit.Data
-		SccProjectUniqueName2 = Perceiveit.Data.SchemaTests\\Perceiveit.Data.SchemaTests.csproj
-		SccProjectName2 = Perceiveit.Data.SchemaTests
-		SccLocalPath2 = Perceiveit.Data.SchemaTests
-		SccProjectUniqueName3 = Perceiveit.Data.UnitTests\\Perceiveit.Data.UnitTests.csproj
-		SccProjectName3 = Perceiveit.Data.UnitTests
-		SccLocalPath3 = Perceiveit.Data.UnitTests
-		SccProjectUniqueName4 = Perceiveit.Data.Silverlight\\Perceiveit.Data.Silverlight.csproj
-		SccProjectName4 = Perceiveit.Data.Silverlight
-		SccLocalPath4 = Perceiveit.Data.Silverlight
-	EndGlobalSection
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = Perceiveit.Data.DynaSQL_10.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -94,5 +75,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Perceiveit.Data.DynaSQL_10.vsmdi
 	EndGlobalSection
 EndGlobal

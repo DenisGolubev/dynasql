@@ -3362,6 +3362,8 @@ namespace Perceiveit.Data.Query
                 case System.Data.DbType.Currency:
                 case System.Data.DbType.Decimal:
                     type = "DECIMAL";
+                    if (setSize > 0 && accuracy > 0)
+                        options = string.Format("({0},{1})", setSize, accuracy);
                     break;
 
                 case System.Data.DbType.Double:
